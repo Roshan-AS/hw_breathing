@@ -7,9 +7,13 @@ for i = 1:3
     % breath rates. What will be the sampling frequnecy in Frequnecy
     % domain? (Think about the Time windowing you are doing)
     
-    %
-    breath_rate_walabot(i) = 
-
+    %% Estimate inter breathing interval
+    inter_breath_interval(i,:) = 
+    number_of_breaths(i) = 
+    breathing_rate_amplitude_based(i) = 
+    %% estimate breath rate using FFT
+    breath_rate_walabot_fft(i) = 
+ 
 end
 
 
